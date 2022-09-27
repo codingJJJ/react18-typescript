@@ -1,0 +1,23 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./react/dist/index.js",
+  "module": "./react/dist/index.esm.js",
+  "types": "./react/dist/index.d.ts",
+  "scripts": {
+    "dev": "cd example && pnpm dev",
+    "start": "cd example && pnpm start",
+    "watch": "pnpm -r run watch",
+    "build": "pnpm -r run build",
+    "pub": "pnpm publish --tag beta",
+    "unpub": "pnpm unpublish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.1.0",
+    "bunchee": "^2.1.3"
+  }
+}
